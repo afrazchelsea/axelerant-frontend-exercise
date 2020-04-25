@@ -1,0 +1,122 @@
+/*.testimonial_list1 .feedback { margin-bottom:20px; overflow:hidden; }
+.testimonial_list1 .icon-quote-left { float:left; margin-right:15px; }
+.testimonial_list1 .clientimg { float:left; margin-right:10px; }
+.testimonial_list1 .clientimg img { width:30px; height:30px; }
+.testimonial_list1 .clientmeta { overflow:hidden; font-size:11px; line-height:normal; }
+*/
+
+.testimonials{
+  background-color: #f4f2f2;
+  height:75vh;
+}
+
+
+
+.testimonials h1{
+  font-weight: 500;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.test-flex{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+.testimonial-box{
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-size: 20px;
+  // list-style: none outside none;
+  padding: 50px;
+  margin-left:30px;
+  background-color: #fff;
+  border-radius: 10px;
+  // max-width: 550px;
+  // width: auto;
+  // height: auto;
+  color:#888888;
+}
+
+
+.testimonial-box p{
+  transform: translateY(-10px);
+  margin-top: 0px;
+  text-align: left;
+  
+}
+
+.testimonial-box i{
+  transform: translateY(-10px);
+  margin-left:-20px;
+  font-size: 25px;
+  color: orangered;
+}
+
+.testimonial-arrow{
+  // box-shadow: rgba(0, 0, 0, 0.2);
+  border-bottom: 10px solid transparent;
+  border-left: 30px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #fff;
+  bottom: -30px;
+  content:"";
+  height: 0px;
+  width: 0px;
+  left: 30px;
+  position: absolute;
+}
+
+.clientimg {
+  
+  position:absolute;
+  bottom : -75px;
+  left:10px;
+}
+.clientimg img {
+  border-radius:50px;
+  width:50px;
+  height:50px;
+}
+
+.clientmeta {
+  position:absolute;
+  bottom:-70px;
+  left: 70px;
+  
+}
+.clientmeta span {
+display:block;
+font-weight: 600;
+font-size:20px;
+color: black;
+// text-transform: uppercase;
+}
+
+
+@media (max-width:991px){
+
+.testimonials h1{
+  margin-bottom: 0;
+ 
+}
+
+  .test-flex{
+    flex-direction: column;
+  }
+
+  .testimonial-box{
+    margin:30px;
+  }
+
+  .invisible{
+    display: none;
+  }
+
+}

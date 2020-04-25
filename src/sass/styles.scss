@@ -1,0 +1,18 @@
+@import "nav";
+@import "header";
+@import "about";
+@import "footer";
+@import "testimonials";
+@import "form";
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato",sans-serif;
+  margin:0px;
+}

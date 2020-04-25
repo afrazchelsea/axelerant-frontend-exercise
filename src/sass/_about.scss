@@ -1,0 +1,42 @@
+.about{
+  display: flex;
+}
+
+.about-flex{
+margin: 60px;
+}
+
+.about-flex h3{
+  font-size:35px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.about-flex p{
+font-size:20px;
+}
+
+.map{
+  margin-top:30px;
+  width:100%;
+}
+
+.spaced{
+  line-height: 1.5;
+}
+
+@media (max-width:991px){
+  .about{
+    flex-direction: column;
+  }
+
+  .about-flex{
+    margin:30px 25px;
+
+  }
+
+  .about img{
+    width:100%;
+  }
+
+}
